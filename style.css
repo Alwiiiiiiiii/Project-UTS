@@ -1,0 +1,46 @@
+.background-warna {
+    background-color: darkslategray !important;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/Bg\ project.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.hovered-card {
+    transition: .3s;
+}
+
+.hovered-card:hover {
+    transform: scale(1.1);
+}
+
+span{
+    color: darkslategray;
+}
+ .img-height{
+    height: 60px;
+ }
+
+ .border-contact{
+    border-radius: 16px; 
+    width: 135px; 
+    height: 124.2px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ }
+
+ .gambar-contact{
+    height: 34px; 
+    width: 34px; 
+    vertical-align: middle;
+ }
